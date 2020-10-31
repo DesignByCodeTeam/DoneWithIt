@@ -1671,6 +1671,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-community/hooks@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "@react-native-community/hooks@npm:2.6.0"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-native: ">=0.59"
+  checksum: ea5e2575859a6a1f7b195bd527e9da440c09b4af60981b3fd2b6c94dbee0bb276e2d3b6d218ed35aa9aa63b3116f6bfcfa76ee90c2d7b7381eff6c063d0426a2
+  languageName: node
+  linkType: hard
+
 "@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0":
   version: 2.0.3
   resolution: "@types/istanbul-lib-coverage@npm:2.0.3"
@@ -6755,6 +6765,7 @@ fsevents@^1.2.7:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/core": ~7.9.0
+    "@react-native-community/hooks": ^2.6.0
     expo: ~39.0.2
     expo-status-bar: ~1.0.2
     react: 16.13.1
